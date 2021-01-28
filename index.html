@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
     <ul id="categories">
@@ -53,21 +54,35 @@
       </div>
       <br />
 
+      <br />
+      <input type="text" placeholder="Ваше имя?" id="name-input" />
+      <h1>Привет, <span id="name-output">незнакомец</span>!</h1>  
+      <br />
 
-
-
+      <br />
+      <input
+      type="text"
+      id="validation-input"
+      data-length="6"
+      placeholder="Введи 6 символов"
+      />
+      <br />
+      <br />
       
+
       <br />
       <input id="font-size-control" type="range" />
       <br />
       <span id="text">Абракадабра!</span>
       <br />
+      <br />
+      <br />
 
 
       <script src="./js/task-test.js" type="module"></script>
 
-    <!-- <script src="./js/task-1.js" type="module"></script> -->
-    <!-- <script src="./js/task-2.js" type="module"></script> -->
+    <script src="./js/task-1.js" type="module"></script>
+    <script src="./js/task-2.js" type="module"></script>
     <script src="./js/task-3.js" type="module"></script>
     <script src="./js/task-4.js" type="module"></script>
     <script src="./js/task-5.js" type="module"></script>
